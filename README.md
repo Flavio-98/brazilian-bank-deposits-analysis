@@ -24,6 +24,14 @@ A compreensão dessa relação auxilia instituições financeiras e analistas ec
 • IPCA – IBGE
 • Taxa de Desemprego – PNAD Contínua
 
+## 💻 Tecnologias
+
+- Python
+- Pandas
+- Statsmodels
+- Matplotlib
+- Jupyter Notebook
+
 ## 📊 Metodologia e Ferramentas
 
 1. ETL e tratamento dos dados.
