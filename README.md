@@ -5,9 +5,9 @@
 
 ## 📋 Sobre o Projeto
 
-Este projeto tem como objetivo analisar o comportamento dos **Depósitos Totais** no sistema bancário brasileiro (soma de Poupança, Depósitos à Vista e Depósitos a Prazo) entre **Janeiro de 2022 e Dezembro de 2024**.
+Análise do comportamento dos depósitos bancários brasileiros entre 2022 e 2024 utilizando dados do Banco Central do Brasil e variáveis macroeconômicas como PIB, Selic, IPCA e Desemprego.
 
-Utilizando técnicas de econometria e ciência de dados, o estudo busca explicar como variáveis macroeconômicas impactam a decisão de poupança e a liquidez bancária no país.
+O objetivo é identificar quais fatores econômicos possuem maior influência sobre a formação de depósitos no sistema financeiro nacional por meio de técnicas de econometria e análise de dados.
 
 ## 🎯 Objetivo
 
