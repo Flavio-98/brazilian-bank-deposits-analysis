@@ -16,6 +16,14 @@ Como fatores macroeconômicos influenciam o comportamento dos depósitos bancár
 
 A compreensão dessa relação auxilia instituições financeiras e analistas econômicos a entender movimentos de liquidez, poupança e comportamento dos agentes econômicos.
 
+## 📂 Dados Utilizados
+
+• Depósitos Bancários – Banco Central do Brasil
+• Taxa Selic – Banco Central do Brasil
+• PIB – IBGE
+• IPCA – IBGE
+• Taxa de Desemprego – PNAD Contínua
+
 ## 📊 Metodologia e Ferramentas
 
 1. ETL e tratamento dos dados.
@@ -27,23 +35,17 @@ A compreensão dessa relação auxilia instituições financeiras e analistas ec
 
 ## 📈 Principais Resultados
 
-O modelo final apresentou um **R² (Coeficiente de Determinação) de 95,9%**, indicando um altíssimo poder explicativo.
+R² = 95,9%
 
-| Variável | Impacto nos Depósitos | Interpretação |
-| :--- | :---: | :--- |
-| **PIB** | 🟢 Positivo | O crescimento da atividade econômica impulsiona o volume de depósitos. |
-| **Desemprego** | 🔴 Negativo | A melhora no mercado de trabalho favorece a formação de poupança bancária. |
-| **Taxa Selic** | 🔴 Negativo | Juros altos incentivam a migração de recursos para outros investimentos (efeito substituição), reduzindo os depósitos bancários tradicionais. |
-| **IPCA (Inflação)** | ⚪ Neutro | Não apresentou significância estatística relevante no modelo ajustado. |
+Principais achados:
+
+• PIB apresentou impacto positivo nos depósitos bancários.
+• Selic apresentou impacto negativo.
+• Desemprego apresentou impacto negativo.
+• IPCA não apresentou significância estatística relevante.
 
 ### Visualização: Real vs Estimado
 
 <img width="1012" height="548" alt="grafico_final" src="https://github.com/user-attachments/assets/632180d0-5db7-44a6-95aa-1df15f4c9139" />
 
 *(O modelo matemático (linha vermelha) segue de perto os dados observados (linha azul), validando a robustez da análise.)*
-
-## 🚀 Como Executar
-
-1. Clone este repositório:
-```bash
-git clone [https://github.com/Flavio-98/Analise_Depositos_Bancarios_Brasil_2022-2024.git](https://github.com/Flavio-98/Analise_Depositos_Bancarios_Brasil_2022-2024.git)
