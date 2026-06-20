@@ -9,25 +9,21 @@ Análise do comportamento dos depósitos bancários brasileiros entre 2022 e 202
 
 O objetivo é identificar quais fatores econômicos possuem maior influência sobre a formação de depósitos no sistema financeiro nacional por meio de técnicas de econometria e análise de dados.
 
-## 🎯 Objetivo
+## 🎯 Problema de Negócio
+Pergunta de pesquisa:
 
-Responder à questão: **Como explicar o comportamento dos depósitos totais utilizando PIB, Taxa de Juros (Selic), Inflação (IPCA) e Desemprego?**
+Como fatores macroeconômicos influenciam o comportamento dos depósitos bancários no Brasil?
 
-Para isso, foi aplicada uma **Regressão Linear Múltiplas (OLS - Ordinary Least Squares)**.
+A compreensão dessa relação auxilia instituições financeiras e analistas econômicos a entender movimentos de liquidez, poupança e comportamento dos agentes econômicos.
 
 ## 📊 Metodologia e Ferramentas
 
-O projeto foi desenvolvido em **Python**, seguindo as etapas:
-
-1.  **ETL (Extração e Tratamento):** Limpeza de dados brutos do Banco Central (conversão de datas e formatos numéricos brasileiros).
-2.  **Engenharia de Atributos:** Criação da variável agregada de "Depósitos Totais".
-3.  **Análise Estatística:** Matriz de correlação e modelagem OLS.
-4.  **Visualização:** Comparação gráfica entre os dados reais e os estimados pelo modelo.
-
-**Bibliotecas utilizadas:**
-* `pandas`: Manipulação de dados.
-* `statsmodels`: Modelagem estatística e regressão.
-* `matplotlib`: Visualização de dados.
+1. ETL e tratamento dos dados.
+2. Construção da variável Depósitos Totais.
+3. Análise exploratória.
+4. Matriz de correlação.
+5. Regressão Linear Múltipla (OLS).
+6. Avaliação do ajuste do modelo.
 
 ## 📈 Principais Resultados
 
